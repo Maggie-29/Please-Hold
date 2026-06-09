@@ -119,7 +119,7 @@ The patchboard panel is a wooden board base with a sublimation-printed polyester
 | File | Description |
 |------|-------------|
 | `6x6_matrix_arduino_code/` | Arduino matrix scan — outputs CONN + TOPO hash over serial |
-| `myoware_emg_code/` | Separate Arduino reading MyoWare 2.0 analog output |
+| `myoware_code/` | Separate Arduino reading MyoWare 2.0 analog output |
 | `telephone_exchange_june1.scd` | SuperCollider instrument — 26 presets, EMG body layer, serial bridge |
 | `emg_osc_serial.toe` | TouchDesigner — EMG normalization, OSC to SuperCollider |
 | `switchboard_sublimation_print.jpg` | Patchboard fabric surface print file |
@@ -136,10 +136,3 @@ The patchboard panel is a wooden board base with a sublimation-printed polyester
 6. `OSCFunc.trace(false)` if post window floods
 7. `~resetBodyState.()` between performers
 
----
-
-## Dependencies
-
-- [SuperCollider](https://supercollider.github.io/)
-- [TouchDesigner](https://derivative.ca/)
-- Arduino IDE
